@@ -9,6 +9,7 @@
 	<configs>
 		<config>src/main/java/resources/constructorinjection.xml</config>
 		<config>src/main/java/resources/dependencyinjection.xml</config>
+		<config>src/main/java/resources/array.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
