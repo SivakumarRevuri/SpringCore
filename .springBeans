@@ -12,6 +12,9 @@
 		<config>src/main/java/resources/array.xml</config>
 		<config>src/main/java/resources/collections.xml</config>
 		<config>src/main/java/resources/dependencycheck.xml</config>
+		<config>src/main/java/resources/autowire.xml</config>
+		<config>src/main/java/resources/autowire-constructor.xml</config>
+		<config>src/main/java/resources/autowite-annotation.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
