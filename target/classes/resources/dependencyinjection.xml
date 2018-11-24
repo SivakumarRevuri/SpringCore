@@ -13,6 +13,20 @@
 			</bean>
 		</property>
 	</bean>
+	
+	<!-- static variable dependency injection -->
+	<bean class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+			<property name="staticMethod" value="dependencyinjection.Car.setCarPrice"></property>
+			<property name="arguments">
+					<list>
+							<value>4534246.24</value>
+					</list>
+			</property>
+	</bean>
+	
+	
+	
+	
 	<!-- outer bean passing as a passByRef through "ref" attribute -->
 	<!-- <bean id="engine1" class="dependencyinjection.Engine"> <property name="modelNo" 
 		value="2018"></property> </bean> -->
