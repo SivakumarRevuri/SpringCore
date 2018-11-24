@@ -21,4 +21,5 @@ public class FactoryMethodTest {
 		throw new CloneNotSupportedException();
 	}
 
+	
 }

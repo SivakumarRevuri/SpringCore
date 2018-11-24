@@ -2,7 +2,7 @@ package stereotypeannotations;
 
 import org.springframework.beans.factory.annotation.Required;
 
-public class Heart {
+public abstract class Heart {
 
 	public String heartRate;
 

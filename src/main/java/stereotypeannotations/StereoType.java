@@ -3,7 +3,7 @@ package stereotypeannotations;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class StereoType {
+public class StereoType extends Heart {
 
 	public static void main(String[] args) {
 		ApplicationContext context = new ClassPathXmlApplicationContext("resources/stereotype.xml");
